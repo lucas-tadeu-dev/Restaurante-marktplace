@@ -1362,7 +1362,7 @@ textarea.input-field{
   .hero-subtitle { --fs-3: 3.2rem;}
 
   .hero-title{
-    --fs-1:7rem;
+    --fs-1: 7rem;
     letter-spacing: -2.5px;
   }
 
@@ -1378,5 +1378,88 @@ textarea.input-field{
   .hero-img-bg { transform: scale(1.6) translate(20px, -90px);}
 
   .hero-img { transform: scale(1.3);}
+
+  /* FOOD MENU */
+
+  .food-menu-list { grid-template-columns: repeat(3, 1fr);}
+
+  .food-menu-card { height: 100%;}
+
+  /* CTA */
+
+  .cta-img { transform: scale(1.4) translateY(60px);}
+
+  .cta-banner .abs-img {left: -50px;}
+
+  :is(.cta, .delivery) .section-title { line-height: 1.2;}
+
+/* TESTIMONIAIS */
+
+  .testi-list { padding-block-end: 0;}
+
+/* BANNER */
+
+  .banner-lg .banner-title{
+    --fs-1: 3.6rem;
+    letter-spacing:-2px;
+  }
+
+  :is(.banner-md, .banner-sm) .banner-title, .banner-lg .banner-subtitle{
+    --fs-2: 3.2rem;
+  }
+
+  .banner-sm .banner-title { font-size: 2.5rem;}
+
+/* BLOG */
+  .blog-list { grid-template-columns: repeat(3, 1fr);}
+
+  .blog-card .card-titlec { --fs-3: 2.2rem;}
+
+/* FOOTER */
+
+.footer-top .container{ grid-template-columns: 1fr 1fr 1fr 1.6fr;}
+
+.footer-form { margin-block-start: -170px;}
+
+/* BACK TO TOP */
+
+.back-top-btn{
+  bottom: 20px;
+  right: 30px;
+}
+
+}
+
+/* Responsive for larger than 1200px */
+@media (min-width: 1200px){
+
+  /* REUSED */
+  
+  .container{ max-width: 1200px;}
+
+  /* HERO */
+  .hero{ min-height: 770px;}
+
+/* PROMO */
+
+.promo .promo-item { min-width: calc(25% - 7.5px);}
+
+/* ABOUT */
+  .about .container { gap: 60px;}
+
+/* CTA */
+
+.cta { --section-padding:60px}
+
+.cta .section-title { max-width: 18ch;}
+
+/* BANNER */
+
+  .banner-md .banner-item-content { left: 55%;}
+
+
+/* FOOTER */
+
+.footer-top .container { grid-template-columns: 1.4fr 1fr 1fr 1.6fr;}
 
 }
