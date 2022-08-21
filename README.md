@@ -32,7 +32,7 @@ já deixar todas váriaveis de css pré-prontas e definidas.
 Sem conta horas e horas que estudar muitas funcionalidades para colocar nele.
 
 O uso de Javascript foi importante também, como na imagem que se move junto com o ralamento do mouse, porém o
-uso mais avançado mesmo foi no CSS, utilei serviços webkit, animações e muitos outros.
+uso mais avançado mesmo foi no CSS, utilizei serviços webkit, animações e muitos outros.
 
 No fim, sinto que que este projeto me fez evoluir muito como profissional e realmente dar um próximo passo importante
 como profissional!
