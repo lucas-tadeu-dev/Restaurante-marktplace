@@ -524,7 +524,7 @@ max-width: 500px;
   transition: var(--transition-1);
 }
 
-.promo-card:hover :is(.card-title, .card-text) {color: var(--white)}
+.promo-card:hover:is(.card-title, .card-text) {color: var(--white)}
 
 .promo-card .card-text {
   margin-block-end: 15px;
@@ -1449,7 +1449,9 @@ textarea.input-field{
 
 /* CTA */
 
-.cta { --section-padding:60px}
+.cta { 
+  --section-padding:60px;
+}
 
 .cta .section-title { max-width: 18ch;}
 
